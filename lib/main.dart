@@ -7,8 +7,8 @@ import 'package:worldtimeapp/pages/loading.dart';
 void main() => runApp(MaterialApp(
   initialRoute: '/home',
   routes: {
-    '/': (context) => Loading(),
+    '/loading': (context) => Loading(),
     '/home': (context) => Home(),
-    '/location': (context) => ChooseLocation()
+    '/location': (context) => ChooseLocation(),
   },
 ));
